@@ -1,5 +1,5 @@
 package service;
 
-public class inventarioService {
+public class InventarioService {
     
 }
