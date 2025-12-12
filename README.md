@@ -116,38 +116,32 @@ java -cp out App.Ejecucion
 ```
 ---
 
-## 🏢 10. SECCIÓN ESPECIAL: Empresa Cliente – Tubos Expoimco S.A. (ejemplo)
+## 🏢 10. SECCIÓN ESPECIAL: Empresa Cliente – Tubos Expoimco S.A. 
 
-> **Nota:** Los datos siguientes son un ejemplo. Reemplaza con la información real del cliente cuando la tengas.
-
-**Logo:** `docs/logo.png` (si no existe, añade la imagen con ese nombre y se mostrará automáticamente en el README)
+**Logo:** `docs/logo.png` 
 
 **Descripción breve:**
 Tubos Expoimco S.A. es una distribuidora de materiales de tubería y accesorios para la construcción e industria. En este proyecto, Tubos Expoimco actúa como cliente y caso de uso para el prototipo de gestión de inventarios y ventas.
 
-**Dirección:** Calle 123 #45-67, Bogotá, Colombia
-
-**Enlace a Google Maps:** https://www.google.com/maps/search/?api=1&query=Calle+123+%2345-67+Bogota+Colombia
-
 **Tabla de datos:**
-____________________________________________________________________________________________________________________________
-|       Nombre        |     Dirección    | Ciudad |     Contacto     |                    Enlace a mapa                    |
-|---------------------|------------------|--------|----------------- |-----------------------------------------------------|
-| Tubos Expoimco S.A. | Calle 123 #45-67 | Bogotá | +57 300 000 0000 | [Ver mapa]()
+________________________________________________________________________________________________________________________________
+|       Nombre        |     Dirección       | Ciudad |     Contacto     |                    Enlace a mapa                     |
+|---------------------|---------------------|--------|----------------- |------------------------------------------------------|
+| Tubos Expoimco S.A. | Calle N°5 NRO 1-138 |  Ureña | +58 424-7215353  | [Ver mapa](https://maps.app.goo.gl/bcxaGqWFWP4VvSpNA)| 
 
-**Misión / Visión (ejemplo):**
+**Misión / Visión**
 - **Misión:** Suministrar materiales de tubería con calidad y entrega oportuna para proyectos residenciales e industriales.
 - **Visión:** Ser el distribuidor líder regional con soluciones integrales y atención al cliente de excelencia.
 
 ---
 
 ## 👥 11. SECCIÓN ESPECIAL: Colaboradores del Proyecto
-___________________________________________________________________________________________
-| Nombre |              Rol                 |                  GitHub                     |  
-|--------|----------------------------------|---------------------------------------------|
-| Miryian| Desarrollador de la rama domain  | [miya151205](https://github.com/miya151205) |
-| keiner | Desarrollador de la rama service | [keiner-png](https://github.com/keiner-png) |
-| Jhon   | Desarrollador de la rama App     | [Jhon-0703](https://github.com/Jhon-0703)   |
+__________________________________________________________________________________________________
+| Nombre |               Rol                       |                  GitHub                     |  
+|--------|-----------------------------------------|---------------------------------------------|
+| Miryian| Desarrollador de la rama domain y Main  | [miya151205](https://github.com/miya151205) |
+| keiner | Desarrollador de la rama service        | [keiner-png](https://github.com/keiner-png) |
+| Jhon   | Desarrollador de la rama App            | [Jhon-0703](https://github.com/Jhon-0703)   |
 
 ## 🔗 12. Redes Sociales / Badges
 
@@ -157,7 +151,7 @@ ________________________________________________________________________________
 </p>
  
  ### Ubicacion de la Empresa
- [Ver en Google Maps]()
+ [Ver en Google Maps](https://maps.app.goo.gl/bcxaGqWFWP4VvSpNA) 
 
 
 
