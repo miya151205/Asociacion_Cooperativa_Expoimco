@@ -118,7 +118,7 @@ java -cp out App.Ejecucion
 
 ## 🏢 10. SECCIÓN ESPECIAL: Empresa Cliente – Tubos Expoimco S.A. 
 
-**Logo:** `docs/tubos.png` 
+![Logo del proyecto](docs/tubos.png) 
 
 **Descripción breve:**
   Asociacion Cooperativa Expoimco es una distribuidora de materiales de tubería y accesorios para la construcción e industria. En este proyecto, Tubos Expoimco actúa como cliente y caso de uso para el prototipo de gestión de inventarios y ventas.

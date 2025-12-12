@@ -9,6 +9,8 @@ import domain.Producto;
 public class Ejecucion {
 
     public static void main(String[] args) {
+        System.out.println("------ BIENVENIDO AL SISTEMA ------");
+        System.out.println("| Software de seguimiento de la Asociación Cooperativa Expoimco |");
 
         Scanner sc = new Scanner(System.in);
         VentaService ventas = new VentaService();
@@ -18,7 +20,7 @@ public class Ejecucion {
         int opcion;
 
         do {
-            System.out.println("====== MENU PRINCIPAL ======");
+            System.out.println("----- MENU PRINCIPAL -----");
             System.out.println("1. Agregar producto");
             System.out.println("2. Mostrar inventario");
             System.out.println("3. Registrar venta");
@@ -77,7 +79,7 @@ public class Ejecucion {
         sc.close();
     }
 
-    // ===================== OPCIÓN 1: AGREGAR PRODUCTO =====================
+    // --------------- OPCIÓN 1: AGREGAR PRODUCTO ---------------
 
     public static void agregarProducto(Scanner sc, InventarioDeService inventario) {
 
@@ -100,7 +102,7 @@ public class Ejecucion {
         System.out.println("Producto agregado correctamente.\n");
     }
 
-    // ===================== OPCIÓN 3: REGISTRAR VENTA =====================
+    // --------------- OPCIÓN 3: REGISTRAR VENTA ---------------
 
     public static void registrarVenta(Scanner sc,
             VentaService ventas,
@@ -137,7 +139,7 @@ public class Ejecucion {
         System.out.println("Venta registrada. Stock actualizado.\n");
     }
 
-    // ===================== OPCIÓN 6: REGISTRAR INVERSIÓN =====================
+    // --------------- OPCIÓN 6: REGISTRAR INVERSIÓN ---------------
 
     public static void registrarInversion(Scanner sc, FinanzaService finanzas) {
 
@@ -149,7 +151,7 @@ public class Ejecucion {
         System.out.println("Inversión registrada correctamente.\n");
     }
 
-    // ===================== MÉTODOS SEGUROS =====================
+    // --------------- MÉTODOS SEGUROS ---------------
 
     static Scanner sc = new Scanner(System.in);
 

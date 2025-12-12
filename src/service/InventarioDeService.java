@@ -15,7 +15,7 @@ public class InventarioDeService {
 
     // Mostrar inventario completo
     public void mostrarInventario() {
-        System.out.println("=== INVENTARIO ===");
+        System.out.println("--- INVENTARIO ---");
         for (int i = 0; i < contadorProductos; i++) {
             Producto p = productos[i];
             System.out.println("Código: " + p.getCodigo() + " | Nombre: " + p.getNombre() + " | Cantidad: "
