@@ -16,7 +16,7 @@ public class FinanzaService {
 
     // Mostrar datos
     public void mostrarFinanzas() {
-        System.out.println("=== ESTADO FINANCIERO ===");
+        System.out.println("--- ESTADO FINANCIERO ---");
         System.out.println("Total inversiones: " + inversiones);
         System.out.println("Total ganancias: " + ganancias);
     }

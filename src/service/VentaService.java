@@ -15,7 +15,7 @@ public class VentaService {
 
     // Mostrar ventas
     public void mostrarVentas() {
-        System.out.println("=== REGISTRO DE VENTAS ===");
+        System.out.println("--- REGISTRO DE VENTAS ---");
         for (int i = 0; i < contadorVentas; i++) {
             Venta v = ventas[i];
             System.out.println("Monto: " + v.getMonto() + " | Fecha: " + v.getFecha());
