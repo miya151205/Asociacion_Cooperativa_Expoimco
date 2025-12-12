@@ -3,7 +3,7 @@ package service;
 import domain.Venta;
 
 public class VentaService {
-    
+
     private Venta[] ventas = new Venta[200];
     private int contadorVentas = 0;
 

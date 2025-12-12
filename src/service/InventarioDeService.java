@@ -18,7 +18,8 @@ public class InventarioDeService {
         System.out.println("=== INVENTARIO ===");
         for (int i = 0; i < contadorProductos; i++) {
             Producto p = productos[i];
-            System.out.println("Código: " + p.getCodigo() + " | Nombre: " + p.getNombre() + " | Cantidad: " + p.getCantidad() + " | Precio: " + p.getPrecioUnitario());
+            System.out.println("Código: " + p.getCodigo() + " | Nombre: " + p.getNombre() + " | Cantidad: "
+                    + p.getCantidad() + " | Precio: " + p.getPrecioUnitario());
         }
     }
 
@@ -40,5 +41,5 @@ public class InventarioDeService {
             p.setCantidad(nuevaCantidad);
         }
     }
-    
+
 }

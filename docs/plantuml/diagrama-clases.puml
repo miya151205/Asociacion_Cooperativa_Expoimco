@@ -1,0 +1,62 @@
+' Diagrama de clases 
+
+package "domain" {
+  class Producto {
+    - int codigo
+    - String nombre
+    - int cantidad
+    - double precioUnitario
+    + getCodigo()
+    + getNombre()
+    + getCantidad()
+    + getPrecioUnitario()
+    + setCantidad(int)
+  }
+
+  class Venta {
+    - double monto
+    - String fecha
+    + getMonto()
+    + getFecha()
+  }
+}
+
+package "service" {
+  class InventarioDeService {
+    - Producto[] productos
+    - int contadorProductos
+    + agregarProducto(Producto)
+    + mostrarInventario()
+    + buscarProducto(int): Producto
+    + restarCantidad(int,int)
+  }
+
+  class VentaService {
+    - Venta[] ventas
+    - int contadorVentas
+    + registrarVenta(double,String)
+    + mostrarVentas()
+    + totalDiario(String): double
+  }
+
+  class FinanzaService {
+    - double inversiones
+    - double ganancias
+    + registrarInversion(double)
+    + registrarGanancia(double)
+    + mostrarFinanzas()
+  }
+}
+
+class Ejecucion {
+  + main(String[])
+  + agregarProducto(...)
+  + registrarVenta(...)
+  + registrarInversion(...)
+}
+
+InventarioDeService o-- Producto : "gestiona"
+VentaService o-- Venta : "gestiona"
+Ejecucion --> InventarioDeService : usa
+Ejecucion --> VentaService : usa
+Ejecucion --> FinanzaService : usa
