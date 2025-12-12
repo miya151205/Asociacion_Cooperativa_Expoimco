@@ -1,0 +1,22 @@
+@startuml
+' Diagrama de secuencia para el flujo principal: Registrar venta
+actor Usuario
+participant Ejecucion
+participant InventarioDeService
+participant Producto
+participant VentaService
+participant FinanzaService
+
+Usuario -> Ejecucion: Selecciona "Registrar venta"
+Ejecucion -> InventarioDeService: buscarProducto(codigo)
+InventarioDeService --> Ejecucion: Producto p (o null)
+alt producto existe y stock suficiente
+    Ejecucion -> VentaService: registrarVenta(monto, fecha)
+    Ejecucion -> InventarioDeService: restarCantidad(codigo, cantidadVendida)
+    Ejecucion -> FinanzaService: registrarGanancia(monto)
+    Ejecucion --> Usuario: "Venta registrada. Stock actualizado."
+else producto no existe o sin stock
+    Ejecucion --> Usuario: "ERROR: Producto no existe / Stock insuficiente"
+end
+
+@enduml

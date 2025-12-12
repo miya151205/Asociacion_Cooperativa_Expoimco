@@ -77,7 +77,6 @@ public class Ejecucion {
         sc.close();
     }
 
-
     // ===================== OPCIÓN 1: AGREGAR PRODUCTO =====================
 
     public static void agregarProducto(Scanner sc, InventarioDeService inventario) {
@@ -101,13 +100,12 @@ public class Ejecucion {
         System.out.println("Producto agregado correctamente.\n");
     }
 
-
     // ===================== OPCIÓN 3: REGISTRAR VENTA =====================
 
     public static void registrarVenta(Scanner sc,
-                                      VentaService ventas,
-                                      InventarioDeService inventario,
-                                      FinanzaService finanzas) {
+            VentaService ventas,
+            InventarioDeService inventario,
+            FinanzaService finanzas) {
 
         System.out.print("Código del producto vendido: ");
         int codigo = leerEnteroSeguro("Código inválido");
@@ -139,7 +137,6 @@ public class Ejecucion {
         System.out.println("Venta registrada. Stock actualizado.\n");
     }
 
-
     // ===================== OPCIÓN 6: REGISTRAR INVERSIÓN =====================
 
     public static void registrarInversion(Scanner sc, FinanzaService finanzas) {
@@ -152,11 +149,11 @@ public class Ejecucion {
         System.out.println("Inversión registrada correctamente.\n");
     }
 
-
     // ===================== MÉTODOS SEGUROS =====================
 
+    static Scanner sc = new Scanner(System.in);
+
     public static int leerEnteroSeguro(String mensaje) {
-        Scanner sc = new Scanner(System.in);
         while (true) {
             try {
                 return Integer.parseInt(sc.nextLine());
@@ -167,7 +164,6 @@ public class Ejecucion {
     }
 
     public static double leerDoubleSeguro(String mensaje) {
-        Scanner sc = new Scanner(System.in);
         while (true) {
             try {
                 return Double.parseDouble(sc.nextLine());
