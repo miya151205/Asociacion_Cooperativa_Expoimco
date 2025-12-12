@@ -1,4 +1,4 @@
-# Sistema de Inventario y Ventas — Proyecto de la distribuidora Tuberias Expoimco
+# Sistema de Inventario y Ventas — Proyecto de la distribuidora Expoimco
 
 **Resumen rápido:** Proyecto Java sencillo para gestionar inventario, registrar ventas e inversiones financieras. Ideal como ejercicio pedagógico o punto de partida para sistemas de punto de venta (POS) pequeños.
 
@@ -118,10 +118,10 @@ java -cp out App.Ejecucion
 
 ## 🏢 10. SECCIÓN ESPECIAL: Empresa Cliente – Tubos Expoimco S.A. 
 
-**Logo:** `docs/logo.png` 
+**Logo:** `docs/tubos.png` 
 
 **Descripción breve:**
-Tubos Expoimco S.A. es una distribuidora de materiales de tubería y accesorios para la construcción e industria. En este proyecto, Tubos Expoimco actúa como cliente y caso de uso para el prototipo de gestión de inventarios y ventas.
+  Asociacion Cooperativa Expoimco es una distribuidora de materiales de tubería y accesorios para la construcción e industria. En este proyecto, Tubos Expoimco actúa como cliente y caso de uso para el prototipo de gestión de inventarios y ventas.
 
 **Tabla de datos:**
 ________________________________________________________________________________________________________________________________
